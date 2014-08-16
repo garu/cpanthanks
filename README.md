@@ -41,25 +41,25 @@ THANKS!
 This tiny app would not be possible without the incredible developers who
 wrote the modules that it depends on! So...
 
-* Thank you B<Masaaki Goshima> for L<Compiler::Lexer>!
+* Thank you **Masaaki Goshima** for Compiler::Lexer!
 
-*  Thank you B<David Golden> for L<Path::Class::Rule>!
+*  Thank you **David Golden** for Path::Class::Rule!
 
-*  Thank you B<Mickey Nasriachi> and B<Sawyer> for L<MetaCPAN::Client>!
+*  Thank you **Mickey Nasriachi** and **Sawyer** for MetaCPAN::Client!
 
-*  Thank you B<Tatsuhiko Miyagawa> and B<Audrey Tang> for L<Term::Encoding>!
+*  Thank you **Tatsuhiko Miyagawa** and **Audrey Tang** for Term::Encoding!
 
-*  Thank you B<Russ Allbery> for L<Term::ANSIColor>!
+*  Thank you **Russ Allbery** for Term::ANSIColor!
 
-*  Thank you B<Jean-Louis Morel> for L<Win32::Console::ANSI>!
+*  Thank you **Jean-Louis Morel** for Win32::Console::ANSI!
 
-*  Thank you B<Graham Barr> and B<Paul Evans> for L<List::Util>!
+*  Thank you **Graham Barr** and **Paul Evans** for List::Util!
 
-*  Thank you B<Yuval Kogman> and B<Jesse Luehrs> for L<Try::Tiny>!
+*  Thank you **Yuval Kogman** and **Jesse Luehrs** for Try::Tiny!
 
-*  Thank you B<Johan Vromans> for L<Getopt::Long>!
+*  Thank you **Johan Vromans** for Getopt::Long!
 
-*  Thank you B<Marek Rouchal> and B<Brad Appleton> for L<Pod::Usage>!
+*  Thank you **Marek Rouchal** and **Brad Appleton** for Pod::Usage!
 
 ### License and Copyright ###
 
