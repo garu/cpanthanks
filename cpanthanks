@@ -100,6 +100,9 @@ foreach my $i ( 0 .. $limit ) {
         elsif ($site->{name} eq 'coderwall') {
             say " * endorse $id on Coderwall! (" . colored(['bright_blue'], "https://coderwall.com/$site->{id}") . ')';
         }
+        elsif ($site->{name} eq 'ohloh') {
+            say " * send kudos to $id on Open HUB (ex-Ohloh) (" . colored(['bright_blue'], "https://www.openhub.net/accounts/$site->{id}/kudos") . ')';
+        }
     }
     say " * send $id a thank you email (" . colored(['bright_blue'], $profile->email->[0]) . ')';
 }
