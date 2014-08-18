@@ -97,6 +97,9 @@ foreach my $i ( 0 .. $limit ) {
         elsif ($site->{name} eq 'twitter') {
             say " * give $id a shout-out on Twitter! (" . colored(['bright_blue'], "http://twitter.com/$site->{id}") . ')';
         }
+        elsif ($site->{name} eq 'coderwall') {
+            say " * endorse $id on Coderwall! (" . colored(['bright_blue'], "https://coderwall.com/$site->{id}") . ')';
+        }
     }
     say " * send $id a thank you email (" . colored(['bright_blue'], $profile->email->[0]) . ')';
 }
