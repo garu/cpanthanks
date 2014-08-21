@@ -86,16 +86,22 @@ foreach my $i ( 0 .. $limit ) {
     say 'Hey! How about ' . colored(['yellow'], 'thanking ' . $profile->name) . '? You can, for example:';
     foreach my $site (@{ $profile->profile // [] }) {
         if ($site->{name} eq 'gittip') {
-            say " * give $id a small tip on Gittip (" . colored(['bright_blue'], "http://gittip.com/$site->{id}") . ')';
+            say " * give $id a small tip on Gittip (" . colored(['bright_blue'], "https://gittip.com/$site->{id}") . ')';
         }
         elsif ($site->{name} eq 'github') {
-            say " * 'like' or 'follow' $id on Github (" . colored(['bright_blue'], "http://github.com/$site->{id}") . ')';
+            say " * 'like' or 'follow' $id on Github (" . colored(['bright_blue'], "https://github.com/$site->{id}") . ')';
         }
         elsif ($site->{name} eq 'playperl' or $site->{name} eq 'questhub') {
-            say " * upvote some of $id\'s quests on Questhub (" . colored(['bright_blue'], "http://questhub.io/player/$site->{id}") . ')';
+            say " * upvote some of $id\'s quests on Questhub (" . colored(['bright_blue'], "https://questhub.io/player/$site->{id}") . ')';
         }
         elsif ($site->{name} eq 'twitter') {
-            say " * give $id a shout-out on Twitter! (" . colored(['bright_blue'], "http://twitter.com/$site->{id}") . ')';
+            say " * give $id a shout-out on Twitter! (" . colored(['bright_blue'], "https://twitter.com/$site->{id}") . ')';
+        }
+        elsif ($site->{name} eq 'coderwall') {
+            say " * endorse $id on Coderwall! (" . colored(['bright_blue'], "https://coderwall.com/$site->{id}") . ')';
+        }
+        elsif ($site->{name} eq 'ohloh') {
+            say " * send kudos to $id on Open HUB (ex-Ohloh) (" . colored(['bright_blue'], "https://www.openhub.net/accounts/$site->{id}/kudos") . ')';
         }
     }
     say " * send $id a thank you email (" . colored(['bright_blue'], $profile->email->[0]) . ')';
