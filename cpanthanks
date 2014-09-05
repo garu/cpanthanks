@@ -85,8 +85,8 @@ foreach my $i ( 0 .. $limit ) {
 
     say 'Hey! How about ' . colored(['yellow'], 'thanking ' . $profile->name) . '? You can, for example:';
     foreach my $site (@{ $profile->profile // [] }) {
-        if ($site->{name} eq 'gittip') {
-            say " * give $id a small tip on Gittip (" . colored(['bright_blue'], "https://gittip.com/$site->{id}") . ')';
+        if ($site->{name} eq 'gittip' or $site->{name} eq 'gratipay') {
+            say " * give $id a small tip on Gratipay (" . colored(['bright_blue'], "https://gratipay.com/$site->{id}") . ')';
         }
         elsif ($site->{name} eq 'github') {
             say " * 'like' or 'follow' $id on Github (" . colored(['bright_blue'], "https://github.com/$site->{id}") . ')';
