@@ -144,7 +144,7 @@ or 'diversity' (authors with the most modules used by you).
 skip modules/pragmas that you don't want to consider. By default
 it skips 'lib', 'strict' and 'warnings';
 
-=item B<--skip-modules LIST>
+=item B<--skip-authors LIST>
 
 skip authors you don't want to consider. If you are a CPAN author
 yourself, you should consider skipping yourself :)
