@@ -2,10 +2,11 @@ use strict;
 use warnings;
 use ExtUtils::MakeMaker;
 
+
 WriteMakefile(
     NAME                => 'App::cpanthanks',
     AUTHOR              => 'Breno G. de Oliveira <garu@cpan.org>',
-    VERSION_FROM        => 'cpanthanks',
+    VERSION_FROM        => 'lib/App/cpanthanks.pm',
     ABSTRACT            => 'Thank your CPAN authors',
     LICENSE             => 'perl',
     PL_FILES            => {},

@@ -3,8 +3,6 @@ use 5.10.0;
 use strict;
 use warnings;
 
-our $VERSION = 0.01;
-
 use Compiler::Lexer;
 use Path::Class::Rule;
 use MetaCPAN::Client;
