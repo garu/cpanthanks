@@ -1,0 +1,13 @@
+Revision history for App-cpanthanks
+
+0.03  2014-09-20
+    - Typo fixes
+
+0.02  2014-09-20
+    - new 'thank you' data for coderwall, openhub (ex-ohloh)
+    - Gittip is now Gratipay
+    - MetaCPAN now uses https
+    - Proper PAUSE indexing
+
+0.01  2014-08-16
+    - Initial version, for CPAN Day!
